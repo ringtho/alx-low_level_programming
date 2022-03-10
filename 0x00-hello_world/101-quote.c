@@ -2,15 +2,14 @@
 #include <unistd.h>
 
 /**
+ * main - Entry point
  *
- * main- Entry point
- *
- * write: Print string to standard output using write()
- * Return: value should be 1 for (Success)
+ * write: print string to standard output using write()
+ * Return: return 1 (success)
  *
  */
 int main(void)
 {
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 61);
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19", 61);
 	return (1);
 }
