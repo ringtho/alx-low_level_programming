@@ -6,9 +6,8 @@
  *
  * main - Entry point
  *
- * printf: prints the last number and whether it's greater than 5
- * if it's 0 and less than 6 but not 0
- * Return: Always 0 (success)
+ * printf: print the last number and it's tests
+ * Return: always 0 (success)
  *
  */
 int main(void)
