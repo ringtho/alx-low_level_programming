@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- *
  * main - Entry point
  *
  * putchar: print alphabet without letters q and e
@@ -18,6 +17,7 @@ int main(void)
 		{
 			putchar(c);
 		}
+
 		c++;
 	}
 	putchar('\n');
