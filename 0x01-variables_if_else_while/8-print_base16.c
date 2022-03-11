@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- *
  * main - Entry point
  *
  * print: base16 characters in lowercase
@@ -15,8 +14,7 @@ int main(void)
 
 	while (num < 10)
 	{
-		char nums = num + '0';
-		putchar(nums);
+		putchar(num + '0');
 		num++;
 	}
 	while (ch < 'g')
