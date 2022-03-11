@@ -3,7 +3,6 @@
 #include <stdio.h>
 
 /**
- *
  * main - Entry point
  *
  * printf: print the last number and it's tests
