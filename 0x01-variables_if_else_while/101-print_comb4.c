@@ -3,7 +3,7 @@
 /**
  * main - entry point
  * print: possible combination of three digits
- * return: always 0
+ * Return: always 0 (success)
  *
  */
 int main(void)
