@@ -4,8 +4,8 @@
  * times_table - print the 9 times table
  *
  */
-void times_table(void){
-
+void times_table(void)
+{
 	int num = 9;
 	int i = 0;
 	int j = 0;
@@ -18,8 +18,10 @@ void times_table(void){
 			result = j * num;
 			_putchar(result);
 			_putchar(',');
+			j++;
 		}
 		result = i * num;
 		_putchar(result);
+		i++;
 	}
 }
