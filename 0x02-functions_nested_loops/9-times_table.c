@@ -16,12 +16,12 @@ void times_table(void)
 		while (j < 10)
 		{
 			result = j * num;
-			return (result);
+			_putchar(result + '0');
 			_putchar(',');
 			j++;
 		}
 		result = i * num;
-		return (result);
+		_putchar(result + '0');
 		i++;
 	}
 }
