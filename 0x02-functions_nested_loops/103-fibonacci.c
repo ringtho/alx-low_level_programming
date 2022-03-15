@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - print sum of fib sequence even numbers 
+ * main - print sum of even fibonacci sequence
  *
- * Return: 0 for successs
+ * Return: 0 for success
  *
  */
 int main(void)
