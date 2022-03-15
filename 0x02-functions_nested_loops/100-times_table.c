@@ -16,6 +16,7 @@ void print_times_table(int n)
 			_putchar('0');
 			_putchar(',');
 			_putchar(' ');
+			_putchar(' ');
 			for (clm = 1; clm <= n; clm++)
 			{
 				rst = (rw * clm);
@@ -32,6 +33,7 @@ void print_times_table(int n)
 				if (clm < n)
 				{
 					_putchar(',');
+					_putchar(' ');
 					_putchar(' ');
 				}
 			}
