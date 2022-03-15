@@ -7,6 +7,7 @@
 void times_table(void)
 {
 	int rw, clm, rst;
+	
 	for (rw = 0; rw <= 9; rw++)
 	{
 		_putchar('0');
