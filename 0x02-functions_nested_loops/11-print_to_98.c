@@ -7,7 +7,7 @@
  */
 void print_to_98(int n)
 {
-	while (n < 99)
+	while (n <= 98)
 	{
 		_putchar((n) + '0');
 		
