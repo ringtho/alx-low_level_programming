@@ -5,7 +5,7 @@
  * @n: the number
  *
  */
-void times_table(int n)
+void print_times_table(int n)
 {
 	int rw, clm, rst;
 
