@@ -2,8 +2,7 @@
 
 /**
  * main - commenting out infinite loop
- * return: 0 for success
- *
+ * Return: 0 
  */
 int main(void)
 {
