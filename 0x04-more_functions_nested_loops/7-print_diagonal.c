@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * print_diagonal - draw a diagonal line on the terminal
+ * print_diagonal - draws a diagonal line across the terminal
+ * @n: the frequencu
  * Return: void
  */
 void print_diagonal(int n)
