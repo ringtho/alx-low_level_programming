@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcpy - copies a string just like strncpy
+ * _strncpy - copies a string just like strncpy
  * @src: string to be appended at the end of dest
  * @dest: string to whic src is appended
  * @n: the number of bytes 
