@@ -1,10 +1,11 @@
 #include "main.h"
+
 /**
-  * _strcat - concatenates 2 strings dest and src
-  * @src: string to be appended to dest
-  * @dest: the string to whic src will be appended
-  * Return: pointer to the transformed dest
-  */
+ * _strcat - concatenates string src to dest
+ * @src: string to be appended to dest
+ * @dest: string to which src will be appended
+ * Return: pointer to the transformed dest string
+ */
 char *_strcat(char *dest, char *src)
 {
 	int i = 0;
