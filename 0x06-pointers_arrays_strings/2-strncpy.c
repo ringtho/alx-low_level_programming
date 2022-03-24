@@ -1,11 +1,11 @@
 #include "main.h"
+
 /**
-  * _strncpy - copies a string just like strncpy
-  * @src: string to be concatenated at the endo of dest
-  * @dest: final string
-  * @n: bytes to be used
-  * Return: pointer to dest
-  */
+ * _strcpy - copies a string just like strncpy
+ * @src: string to be appended at the end of dest
+ * @dest: string to whic src is appended
+ * @n: the number of bytes 
+ */
 char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
@@ -14,6 +14,7 @@ char *_strncpy(char *dest, char *src, int n)
 	{
 		dest[i] = src[i];
 	}
+
 	for ( ; i < n; i++)
 	{
 		dest[i] = '\0';
