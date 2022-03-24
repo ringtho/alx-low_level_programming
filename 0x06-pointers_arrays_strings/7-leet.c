@@ -1,30 +1,28 @@
 #include "main.h"
+
 /**
-  * leet - encodes a string into 1337 lexicon
-  * @elite: string to be encoded
-  * Return: the string encoded
-  */
-char *leet(char *elite)
+ * leet - encodes a string in 1337
+ * @s: string to be encoded
+ *
+ * Return: the resulting string;
+ */
+char *leet(char *s)
 {
-	int i;
-	int j;
-	char aeotl[] = "aeotl";
-	char AEOTL[] = "AEOTL";
-	char numbers[] = "43071";
+	int i, j;
 
-	i = 0;
+	char *a = "aAeEoOtTlL";
+	char *b = "4433007711";
 
-	while (*(elite + i) != '\0')
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (j = 0; aeotl[j] != '\0'; j++)
+		for (j = 0; j < 10; j++)
 		{
-			if (*(elite + i) == aeotl[j] ||
-			  *(elite + i) == AEOTL[j])
+			if (s[i] == a[j])
 			{
-				*(elite + i) = numbers[j];
+				s[i] = b[j];
 			}
 		}
-		i++;
 	}
-	return (elite);
+
+	return (s);
 }
