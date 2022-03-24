@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _strncpy - copies a string just like strncpy
- * @src: string to be appended at the end of dest
- * @dest: string to whic src is appended
- * @n: the number of bytes
- * Return: pointer to dest 
+ * _strncpy - copy a string
+ * @dest: destination string
+ * @src: source string - to be copied
+ * @n: number of bytes
+ * Return: dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
@@ -16,6 +16,6 @@ char *_strncpy(char *dest, char *src, int n)
 
 	for ( ; i < n; i++)
 		dest[i] = '\0';
-	
+
 	return (dest);
 }
