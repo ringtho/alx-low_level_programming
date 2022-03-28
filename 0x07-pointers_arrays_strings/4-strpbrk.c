@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * *_strbrk - searches a string for a set of bytes
+ * *_strpbrk - searches a string for a set of bytes
  * @s: string to search
  * @accept: string containing the bytes
  * Return: pointer to the byte in s that matches those in accept or NULL 
