@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * strlen_no_wilds - Returns the length of a string ignoring wildcard characters
+ * strlen_no_wilds - Returns the length of a string 
+ * 			ignoring wildcard characters
  * @str: The string to be measured
  * Return: The length
  */
