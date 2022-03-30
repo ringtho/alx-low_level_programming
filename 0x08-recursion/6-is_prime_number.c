@@ -20,7 +20,7 @@ int is_divisible(int a, int b)
 		}
 		else
 		{
-			return (aux(a, b - 1));
+			return (is_divisible(a, b - 1));
 		}
 	}
 }
