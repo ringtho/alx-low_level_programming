@@ -10,3 +10,6 @@ int find_sqrt(int num, int room);
 int is_divisible(int a, int b);
 int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
+int strlen_no_wilds(char *str);
+void iterate_wild(char **wildstr);
+char *postfix_match(char *str, char *postfix);
