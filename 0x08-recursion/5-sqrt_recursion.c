@@ -22,7 +22,7 @@ int find_sqrt(int num, int root)
  * @n: natural number
  * Return: square root of number
  */
-int _sqrt_recursion (int n)
+int _sqrt_recursion(int n)
 {
 	int root = 0;
 
